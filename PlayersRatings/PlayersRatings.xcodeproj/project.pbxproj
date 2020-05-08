@@ -20,6 +20,7 @@
 		096F08C72465118D00162573 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08C62465118D00162573 /* PlayerCell.swift */; };
 		096F08C924651A9C00162573 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08C824651A9C00162573 /* PlayerDetailsViewController.swift */; };
 		096F08CB24651EC700162573 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08CA24651EC700162573 /* GamePickerViewController.swift */; };
+		096F08CE2465364B00162573 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096F08CC2465364B00162573 /* Player.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		096F08C62465118D00162573 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		096F08C824651A9C00162573 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		096F08CA24651EC700162573 /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		096F08CD2465364B00162573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlayersRatings/Base.lproj/Player.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				093A1D992464B9AB00A22FF2 /* SceneDelegate.swift */,
 				093A1D9B2464B9AB00A22FF2 /* ViewController.swift */,
 				093A1D9D2464B9AB00A22FF2 /* Main.storyboard */,
+				096F08CC2465364B00162573 /* Player.storyboard */,
 				093A1DA02464B9AC00A22FF2 /* Assets.xcassets */,
 				093A1DA22464B9AC00A22FF2 /* LaunchScreen.storyboard */,
 				093A1DA52464B9AC00A22FF2 /* Info.plist */,
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				093A1DA42464B9AC00A22FF2 /* LaunchScreen.storyboard in Resources */,
+				096F08CE2465364B00162573 /* Player.storyboard in Resources */,
 				093A1DA12464B9AC00A22FF2 /* Assets.xcassets in Resources */,
 				093A1D9F2464B9AB00A22FF2 /* Main.storyboard in Resources */,
 			);
@@ -221,6 +225,14 @@
 				093A1DA32464B9AC00A22FF2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		096F08CC2465364B00162573 /* Player.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096F08CD2465364B00162573 /* Base */,
+			);
+			name = Player.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

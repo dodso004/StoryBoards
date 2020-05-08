@@ -27,6 +27,34 @@ extension GamePickerViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameCell", for: indexPath)
         cell.textLabel?.text = gamesDataSource.gameName(at: indexPath)
         
+        if indexPath.row == gamesDataSource.selectedGameIndex {
+        cell.accessoryType = .checkmark
+    } else {
+    cell.accessoryType = .none
+    }
+        
         return cell
+    }
+}
+
+extension GamePickerViewController {
+    override func tableView(
+        _ tableView: UITableView,
+        didSelectRowAt indexPath: IndexPath
+    ) {
+        // Remove the gray selection background that appears by default.
+        tableView.deselectRow(at: indexPath, animated: true)
+        // Get the previously selected game and remove the checkmark from its cell.
+        if let index = gamesDataSource.selectedGameIndex {
+            let cell = tableView.cellForRow(at: IndexPath(row: index, section: 0))
+            cell?.accessoryType = .none
+        }
+        // Select the new game in the data source
+        gamesDataSource.selectGame(at: indexPath)
+        // Mark the new cell with the checkmark
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.accessoryType = .checkmark
+        
+        performSegue(withIdentifier: "unwind", sender: cell)
     }
 }
