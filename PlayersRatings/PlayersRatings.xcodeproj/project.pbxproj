@@ -18,6 +18,8 @@
 		093A1DB62465074500A22FF2 /* PlayersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093A1DB52465074500A22FF2 /* PlayersDataSource.swift */; };
 		096F08C324650A3800162573 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08C224650A3800162573 /* PlayersViewController.swift */; };
 		096F08C72465118D00162573 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08C62465118D00162573 /* PlayerCell.swift */; };
+		096F08C924651A9C00162573 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08C824651A9C00162573 /* PlayerDetailsViewController.swift */; };
+		096F08CB24651EC700162573 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096F08CA24651EC700162573 /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		093A1DB52465074500A22FF2 /* PlayersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersDataSource.swift; sourceTree = "<group>"; };
 		096F08C224650A3800162573 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		096F08C62465118D00162573 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		096F08C824651A9C00162573 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		096F08CA24651EC700162573 /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				096F08C224650A3800162573 /* PlayersViewController.swift */,
+				096F08C824651A9C00162573 /* PlayerDetailsViewController.swift */,
+				096F08CA24651EC700162573 /* GamePickerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +196,8 @@
 				096F08C324650A3800162573 /* PlayersViewController.swift in Sources */,
 				093A1DB62465074500A22FF2 /* PlayersDataSource.swift in Sources */,
 				093A1D9C2464B9AB00A22FF2 /* ViewController.swift in Sources */,
+				096F08C924651A9C00162573 /* PlayerDetailsViewController.swift in Sources */,
+				096F08CB24651EC700162573 /* GamePickerViewController.swift in Sources */,
 				093A1DB4246503B100A22FF2 /* GamesDataSource.swift in Sources */,
 				093A1D982464B9AB00A22FF2 /* AppDelegate.swift in Sources */,
 				093A1D9A2464B9AB00A22FF2 /* SceneDelegate.swift in Sources */,
